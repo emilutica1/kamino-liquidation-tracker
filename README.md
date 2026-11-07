@@ -172,8 +172,10 @@ A watchdog re-subscribes if the WebSocket goes silent for 5 minutes, and a heart
 
 ## Related
 
-[solana-latency-toolkit](https://github.com/emilutica1/solana-latency-toolkit): which data feed is fastest, how many
-slots a transaction takes to land per send route, and endpoint round-trip times.
+- [solana-latency-toolkit](https://github.com/emilutica1/solana-latency-toolkit): which data feed is fastest, how many
+  slots a transaction takes to land per send route, and endpoint round-trip times.
+- [kamino-health-scanner](https://github.com/emilutica1/kamino-health-scanner): health of every Kamino borrowing
+  position, distance to liquidation, and price-shock scenarios.
 
 ## Credits
 
