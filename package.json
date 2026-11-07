@@ -1,0 +1,17 @@
+{
+  "name": "kamino-liquidation-tracker",
+  "version": "1.0.0",
+  "description": "Real-time, read-only tracker of liquidations on Kamino Lend (Solana): who liquidates, how fast, with which fees, tips and tools.",
+  "main": "tracker.js",
+  "scripts": {
+    "start": "node tracker.js",
+    "report": "node report.js"
+  },
+  "keywords": ["solana", "kamino", "liquidation", "defi", "mev", "analytics"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@solana/web3.js": "1.98.4",
+    "bs58": "5.0.0"
+  }
+}
