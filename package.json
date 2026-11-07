@@ -7,11 +7,25 @@
     "start": "node tracker.js",
     "report": "node report.js"
   },
-  "keywords": ["solana", "kamino", "liquidation", "defi", "mev", "analytics"],
+  "keywords": [
+    "solana",
+    "kamino",
+    "liquidation",
+    "defi",
+    "mev",
+    "analytics"
+  ],
+  "author": "emilutica1",
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@solana/web3.js": "1.98.4",
     "bs58": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilutica1/kamino-liquidation-tracker"
   }
 }

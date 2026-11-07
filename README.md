@@ -40,7 +40,7 @@ Liquidations come in bursts: most days see a handful, while sharp price moves pr
 Requires Node.js 18 or newer.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/emilutica1/kamino-liquidation-tracker
 cd kamino-liquidation-tracker
 npm install
 node tracker.js          # runs until stopped (Ctrl+C); appends to data/liquidations.jsonl
@@ -139,6 +139,16 @@ A watchdog re-subscribes if the WebSocket goes silent for 5 minutes, and a heart
 - Token deltas are raw token amounts, not USD values.
 - Public endpoints can drop or rate-limit; the tracker retries and backfills, but a dedicated RPC is more reliable.
 
+## Related
+
+[solana-latency-toolkit](https://github.com/emilutica1/solana-latency-toolkit): which data feed is fastest, how many
+slots a transaction takes to land per send route, and endpoint round-trip times.
+
+## Credits
+
+Built and maintained by [emilutica1](https://github.com/emilutica1), developed with the help of Claude Code.
+Issues and pull requests are welcome.
+
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
